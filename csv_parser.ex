@@ -34,7 +34,7 @@ defmodule CsvParser do
   end
 end
 
-defmodule HashedCsvParser do
+defmodule Main do
   def run() do
     data =
       File.stream!("lib/data.csv")
